@@ -13,7 +13,6 @@ gem 'webpacker'
 # gem 'mini_racer', platforms: :ruby
 
 gem 'slim-rails'
-gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
