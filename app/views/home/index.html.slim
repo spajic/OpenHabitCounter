@@ -1,5 +1,7 @@
 = javascript_pack_tag 'application'
+= stylesheet_pack_tag 'application'
 
-h3 Welcome
+.page
+  h3 Welcome
 
-h4 = react_component("HelloWorld", { greeting: "Hello from react-rails." }, prerender: true)
+  h4.border = react_component("HelloWorld", { greeting: "Hello from react-rails." }, prerender: true)
